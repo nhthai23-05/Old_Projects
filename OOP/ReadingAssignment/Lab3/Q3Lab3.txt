@@ -1,0 +1,8 @@
+- After the call of swap(jungleDVD, cinderellaDVD) why does the title of these two objects still remain? 
++ Before the swap: Reference points of them are local names 'Jungle' and 'Cinderella'
++ After the swap: Change the local names but the the getTitle remain the same
+--> Won't change
+
+- After the call of changeTitle(jungleDVD, cinderellaDVD.getTitle()) why is the title of the JungleDVD changed? 
++ calling changeTitle is modifying directly the jungleDvd by calling it Cinderella (the oldTitle)
+--> It will change

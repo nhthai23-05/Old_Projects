@@ -1,0 +1,7 @@
+- When to avoid using accessor methods (Getters/Setters)
++ Internal state are exposed unnecessarily
++ Too much coupling between objects
++ Procedural habits
+- Suitable cases to use:
++ Objects which type is unchanged
++ When using JavaBeans because JavaBeans requirer those method

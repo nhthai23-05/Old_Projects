@@ -1,0 +1,6 @@
+- Comparable interface should be implemented in Media class
+- We should override it just like we did with Comparator interface approach
+- In this approach, we can't have 2 ordering rules since Comparable interface doesn't support this
+- We can consider the cases that Media is instance of DigitalVideoDisc class when we define the Compare function.
+About its ordering rule, since we can't have 2 ordering rules so we can consider the cases that title is the same,
+then the cases that length is the same to sort the order of DVDs.

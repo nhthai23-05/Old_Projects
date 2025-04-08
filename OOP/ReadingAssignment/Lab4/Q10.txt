@@ -1,0 +1,2 @@
+If the passing object is not an instance of Media, what happens?
+- It will return a runtime exception since the object is not the Media type object
